@@ -68,7 +68,8 @@ header .navbar {
     height: 60px;
     line-height: 60px;
 }
-header .navbar .float {
+/* header .navbar  */
+.float {
     float: left;
     height: 100%;
 }
@@ -119,3 +120,18 @@ header .navbar .float .nav-menu li:last-child {
     font-size: 1.15em;
 }
 /* jumbo */
+
+/* main */
+main .main-section.white {
+    background-color: white;
+}
+main .main-section.lightgrey {
+    background-color: lightgrey;
+}
+main .main-section .float.image-block {
+    width: 70%;
+}
+main .main-section .float.text-block {
+    width: 30%;
+}
+/* /main */
