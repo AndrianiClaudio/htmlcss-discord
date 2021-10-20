@@ -122,16 +122,25 @@ header .navbar .float .nav-menu li:last-child {
 /* jumbo */
 
 /* main */
-main .main-section.white {
-    background-color: white;
+main .main-section .container {
+    margin-top: 7em;
 }
-main .main-section.lightgrey {
-    background-color: lightgrey;
+main .main-section .container .image-block,
+main .main-section .container .text-block {
+    overflow: hidden;
 }
-main .main-section .float.image-block {
-    width: 70%;
+
+main .main-section .container .image-block {
+    width: 65%;
+    text-align: right;
+    padding-right:3em;
 }
-main .main-section .float.text-block {
-    width: 30%;
+main .main-section .container .image-block img {
+    width: 100%;
+}
+main .main-section .container .text-block {
+    width: 35%;
+    text-align: center;
+    padding-right: 5em;
 }
 /* /main */
