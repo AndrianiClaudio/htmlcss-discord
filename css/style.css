@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+*::first-letter {
+    text-transform: uppercase;
+}
+
 html {
     font-size: 100%;
     font-family: ‘Whitney’, sans-serif;
@@ -14,6 +18,12 @@ html {
     clear: both;
 }
 /* /General */
+
+/* margini */
+.margin-btm-1dot1 {
+    margin-bottom: 1.1em;
+}
+/* /margini */
 
 /* header .btn link */
 header a.btn {
@@ -104,10 +114,8 @@ header .navbar .float .nav-menu li:last-child {
     padding: 10em 0;
     color: white;
 }
-.margin-btm-1dot1 {
-    margin-bottom: 1.1em;
-}
 .jumbo-text .jumbo-desc {
     line-height: 1.7em;
+    font-size: 1.15em;
 }
 /* jumbo */
