@@ -43,19 +43,19 @@ ul {
 
 /* larghezze */
 .width-18-75 {
-    width:18.75%;
+    width:18.75vw;
 }
-.width-25 {
+.width-25-per {
     width: 25%;
 }
-.width-50 {
+.width-50-per {
     width: 50%;
 }
 .width-85 {
-    width: 85%;
+    width: 85vw;
 }
 .width-80 {
-    width:80%;
+    width:80vw;
 }
 /* /larghezze */
 
