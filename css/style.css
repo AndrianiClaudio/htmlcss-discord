@@ -25,10 +25,21 @@ html {
 }
 /* /margini */
 
+.container.width-80 {
+    width:80%;
+    margin:auto
+}
+
 .float {
     float: left;
     height: 100%;
 }
+.back-stars {
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /* header .btn link */
 header a.btn,
 .main-section a.btn {
@@ -128,8 +139,6 @@ main .main-section.lightgrey {
 }
 main .main-section .container {
     padding: 14vh 0;
-    width:80%;
-    margin: auto;
 }
 main .main-section .container .image-block,
 main .main-section .container .text-block {
@@ -140,8 +149,8 @@ main .main-section .container .image-block {
     width: 67%;
     text-align: right;
     padding-right:3em;
-
 }
+
 main .main-section .container .image-block.big {
     width: 100%;
     text-align: center;
@@ -153,15 +162,9 @@ main .main-section .container .image-block img {
 main .main-section .container .text-block {
     width: calc(33% - 2em);
     text-align: left;
-    margin-left:2em;
-    margin-top: 2em;
+    margin: 2em 0 0 2em;
 }
-main .main-section .container .text-block.big {
-    width: 100%;
-}
-main .main-section .container .text-block.center {
-    text-align: center;
-}
+
 main .main-section .container .text-block h2 {
     font-size: 3.2em;
     margin-bottom: 0.6em;
@@ -170,8 +173,12 @@ main .main-section .container .text-block h2 {
 main .main-section .container .text-block p {
     font-size: 1.25em;
     line-height: 1.5em;
-    
 }
 /* /main */
 
-
+main .main-section .container .text-block.big,
+footer .container .footer-col {
+    width: 100%;
+    text-align: center;
+    margin:0;
+}
