@@ -66,7 +66,9 @@ a {
 
 /* header .btn link */
 header a.btn,
-.main-section a.btn {
+main .main-section a.btn,
+footer a.btn
+ {
     display: inline-block;
     background-color: white;
     border-radius: 2em;
@@ -217,7 +219,6 @@ footer {
 
 footer .container .footer-row {
     width: 80%;
-    display: block;
     font-size: 0.9em;
     margin: 0 auto;
     padding: 2.3vh 0;
@@ -236,4 +237,10 @@ footer .container .footer-row .footer-col {
 }
 footer .container .footer-row .footer-col h3 {
     font-size: 1.5em;
+}
+
+
+.float-right {
+    float: right;
+    height: 100%;
 }
