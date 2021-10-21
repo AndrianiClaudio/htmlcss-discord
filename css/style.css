@@ -71,7 +71,6 @@ ul {
     float: right;
 }
 /* /float */
-
 .back-stars {
     height: 100%;
     background-image: url("../img/stars.svg");
@@ -164,7 +163,7 @@ header .navbar .float-l li :focus {
 
 /* main */
 main .main-section.lightgrey {
-    background-color: lightgrey;
+    background-color: #f6f6f6;
 }
 main .main-section .container {
     padding: 14vh 0;
@@ -205,9 +204,9 @@ footer {
     color: white;
 }
 
-footer .container .footer-row .footer-col h3,
-footer .container .footer-row .footer-col li h3 {
+footer .container .footer-row .footer-col h3 {
     color: rgb(81, 143, 223);
+    font-size: 1.2em;
 }
 footer {
     padding-top: 50px;
@@ -217,10 +216,20 @@ footer .container .footer-row {
     padding: 2.3vh 0;
     border-bottom: 2px solid lightsteelblue;
 }
-footer .container .footer-row .footer-col .social-logo a:visited {
+footer .container .footer-row .footer-col a:visited {
     color: white;
 }
 footer .container .footer-row .footer-col h3 {
     font-size: 1.5em;
 }
 /* /footer */
+
+/* wave */
+.wave svg{
+    display: block;
+    fill: #f6f6f6;
+}
+.wave.rotate {
+    transform: rotate(180deg);
+}
+/* /wave */
