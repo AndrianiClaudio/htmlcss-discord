@@ -17,6 +17,9 @@ html {
     display: table;
     clear: both;
 }
+a {
+    text-decoration: none;
+}
 /* /General */
 
 /* margini */
@@ -25,10 +28,31 @@ html {
 }
 /* /margini */
 
-.container.width-80 {
-    width:80%;
-    margin:auto
+/* larghezze */
+.width-18-75,
+.width-25,
+.width-50,
+.width-80,
+.width-85 {
+    margin: 0 auto;
+    text-align: center;
 }
+.width-18-75 {
+    width:18.75%;
+}
+.width-25 {
+    width: 25%;
+}
+.width-50 {
+    width: 50%;
+}
+.width-85 {
+    width: 85%;
+}
+.width-80 {
+    width:80%;
+}
+/* /larghezze */
 
 .float {
     float: left;
@@ -78,9 +102,6 @@ header {
     background-size: cover;
 }
 header .navbar {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
     height: 60px;
     line-height: 60px;
 }
@@ -120,10 +141,7 @@ header .navbar .float .nav-menu li:last-child {
 /* /header */
 
 /* jumbo */
-.jumbo-text {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+.jumbo-text{
     padding: 10em 0;
     color: white;
 }
@@ -164,7 +182,11 @@ main .main-section .container .text-block {
     text-align: left;
     margin: 2em 0 0 2em;
 }
-
+main .main-section .container .text-block.big {
+    width: 100%;
+    text-align: center;
+    margin:0;
+}
 main .main-section .container .text-block h2 {
     font-size: 3.2em;
     margin-bottom: 0.6em;
@@ -176,9 +198,42 @@ main .main-section .container .text-block p {
 }
 /* /main */
 
-main .main-section .container .text-block.big,
-footer .container .footer-col {
-    width: 100%;
-    text-align: center;
-    margin:0;
+/* footer */
+footer {
+    background-color: #23272a;
+    color: white;
+}
+
+footer .container .footer-row .footer-col h3,
+footer .container .footer-row .footer-col li h3 {
+    color: rgb(81, 143, 223);
+}
+
+/* /footer */
+
+footer {
+    padding-top: 50px;
+}
+
+footer .container .footer-row {
+    width: 80%;
+    display: block;
+    font-size: 0.9em;
+    margin: 0 auto;
+    padding: 2.3vh 0;
+    border-bottom: 2px solid lightsteelblue;
+}
+footer .container .footer-row .footer-col .social-logo a:visited {
+    color: white;
+}
+footer .container .footer-row .footer-col ul li {
+    list-style-type: none;
+}
+
+footer .container .footer-row .footer-col {
+    overflow: hidden;
+    text-align: left;
+}
+footer .container .footer-row .footer-col h3 {
+    font-size: 1.5em;
 }
